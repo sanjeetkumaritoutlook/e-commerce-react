@@ -25,6 +25,7 @@ const categories = [
       <main>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/categories" element={<Homepage />} />
           <Route path="/category/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
