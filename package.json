@@ -1,6 +1,7 @@
 {
   "name": "e-commerce-react",
   "version": "0.1.0",
+  "homepage": "https://sanjeetkumaritoutlook.github.io/e-commerce-react",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
