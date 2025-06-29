@@ -10,6 +10,8 @@ import WishList from './components/WishList';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import SearchResults from './components/SearchResults';
+import GalaxyExplorer from 'galaxy-explorer-react';
+
 const App = () => {
 // Define the products array
 const categories = [
@@ -34,6 +36,7 @@ const categories = [
           <Route path="/search" element={<SearchResults />} />
         </Routes>
         </main>
+        <GalaxyExplorer/>
       <Footer />
     </Router>
   );
